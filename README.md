@@ -36,6 +36,8 @@ alignment and local alignment between images and texts by mapping images
 and texts into a common space to establish correspondences between these
 two modalities. 
 
+![image](https://github.com/xyi007/MSC/blob/main/Framework_revision.pdf)
+
 ## Training new models
 ------------------------
 Modify the data_path, vocab_path, model_name, logger_name in the opts.py file. Then run train.py:
@@ -66,3 +68,6 @@ python eval_ensemble.py
 Note that ```fold5=True``` is only for evaluation on mscoco1K (5 folders average) while fold5=False for mscoco5K and flickr30K. 
 
 ## Visualization
+-----------------
+![i2t](https://github.com/xyi007/MSC/blob/main/Image_text_retrieval.pdf)
+![t2i](https://github.com/xyi007/MSC/blob/main/Text_image_retrieval.pdf)
