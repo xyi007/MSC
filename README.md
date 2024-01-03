@@ -11,16 +11,18 @@ We recommended the following dependencies.
 * Punkt Sentence Tokenizer:
   ```python
   import nltk
-nltk.download() //python
+  nltk.download() //python
+
 ## Download data and vocab
 ---------------------------
 We follow [SCAN](https://github.com/kuanghuei/SCAN) to obtain image features and vocabularies, which can be downloaded by using:
-```Python
+```python
 wget https://iudata.blob.core.windows.net/scan/data.zip
-wget https://iudata.blob.core.windows.net/scan/vocab.zip //python
+wget https://iudata.blob.core.windows.net/scan/vocab.zip
+//python
 
 Another download link is available below：
-```Python
+```python
 https://drive.google.com/drive/u/0/folders/1os1Kr7HeTbh8FajBNegW8rjJf6GIhFqC
 
 ## Training new models
