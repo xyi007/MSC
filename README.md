@@ -1,5 +1,4 @@
 # MSC
-=======
 ## Requirements and Installation
 ---------------
 We recommended the following dependencies.
