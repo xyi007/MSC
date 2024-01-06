@@ -55,18 +55,18 @@ For Flickr30K:
 
 ## Evaluate trained models
 --------------------------
-For SGR and SAF: Modify the model_path, data_path, vocab_path in the evaluation.py file. Then run evaluation.py:
+For SGR and SAF: Modify the ```model_path```, ```data_path```, ```vocab_path``` in the ```evaluation.py``` file. Then run ```evaluation.py```:
 ```Python
 python evaluation.py
 ```
 
-For SGRAF: Modify the paths in the eval_ensemble.py file. Then run eval_ensemble.py:
+For SGRAF: Modify the ```paths``` in the ```eval_ensemble.py``` file. Then run ```eval_ensemble.py```:
 ```Python
 python eval_ensemble.py
 ```
 
-Note that ```fold5=True``` is only for evaluation on mscoco1K (5 folders average) while fold5=False for mscoco5K and flickr30K. 
-
+Note that ```fold5=True``` is only for evaluation on mscoco1K (5 folders average) while ```fold5=False``` for mscoco5K and flickr30K. Pretrained models can be downloaded from
+https://drive.google.com/drive/folders/1ORZ2C9Qm0d4I-bgV4dwo2iFX4mLsgbqr
 ## Visualization
 -----------------
 ![i2t](https://github.com/xyi007/MSC/blob/main/Image_text_retrieval.pdf)
